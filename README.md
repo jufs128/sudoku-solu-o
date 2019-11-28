@@ -1,7 +1,7 @@
 # sudoku-solucao
   O programa recebe as dimensões do sudoku e de seus quadrantes, seguido do próprio jogo com 0 para os espaços em branco, e o resolve.
           
-  *OBS.: Não resolve para todas as instâncias. Quando o algoritmo não consegue encontrar solução, retorna "sem solução" e onde a solução parou."*
+  *OBS.: Não resolve para todas as instâncias. Quando o algoritmo não consegue encontrar solução, retorna "sem solução" e onde a solução parou. Quando consegue, imprime só "solução".*
   
 ## Implementação
   As relações de conflito entre blocos do Sudoku foram implementadas por meio de um grafo (arestas entre espaços em que há conflito), o qual é representado por uma matriz de adjacência. Os dados (valor atual, número de valores possíveis, e id) de cada espaço foram guardados numa lista sequencial. Além disso, foi feita uma matriz espaços x valores, sendo que um valor (x,y) = 0 se o espaço x pode ser o valor y e (x,y) = 1 se x não pode ser y.
