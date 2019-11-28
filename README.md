@@ -29,4 +29,4 @@ Na pasta archives está incluso um Makefile, basta digitar make na linha de coma
 ## Execução
 A função funciona passando o nome do arquivo .txt como parâmetro, mas, caso isso não seja feito, pede para o usuário digitar o nome do arquivo no início da execução.
 
-*Obs.: Inclua o .txt no nome do arquivo, isto é nome.txt e não somente nome."*
+*Obs.: Inclua o .txt no nome do arquivo, isto é, nome.txt e não somente nome.*
