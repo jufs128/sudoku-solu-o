@@ -24,7 +24,7 @@ solução
 3 4 2 1         
 
 ## Compilação
-Na pasta archives está incluso um Makefile, basta digitar make na linha de comando.
+Na pasta code está incluso um Makefile, basta digitar make na linha de comando.
 
 ## Execução
 A função funciona passando o nome do arquivo .txt como parâmetro, mas, caso isso não seja feito, pede para o usuário digitar o nome do arquivo no início da execução.
